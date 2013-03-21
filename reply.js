@@ -97,3 +97,11 @@ twitter.stream('statuses/filter', {'track':keywords}, function(stream) {
     console.error("Got an error streaming tweets: ",e.stack)
   })
 })
+
+// couldn't figure out how to make heroku think this is a valid worker. this will work for now:
+if(process.env.PORT){
+  require('http').createServer(function(req,res){
+    res.end('nothing to see here...')
+    res.listen(process.env.PORT)
+  })
+}
