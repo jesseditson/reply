@@ -1,0 +1,15 @@
+{
+  "twitter" : {
+    "consumer_key" : "",
+    "consumer_secret" : "",
+    "access_token_key" : "",
+    "access_token_secret" : ""
+  },
+  "keywords" : "",
+  "match" : "",
+  "replies" : [
+    "test"
+  ],
+  "max_replies_per_minute" : 6,
+  "in_reply_to" : true
+}

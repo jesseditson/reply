@@ -1,0 +1,24 @@
+{
+  "name": "reply",
+  "version": "0.0.1",
+  "description": "A bot for replying to tweets",
+  "main": "reply.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jesseditson/reply.git"
+  },
+  "keywords": [
+    "twitter",
+    "reply"
+  ],
+  "author": "Jesse Ditson <jesse.ditson@gmail.com>",
+  "license": "BSD",
+  "dependencies": {
+    "config-heroku": "~0.1.1a",
+    "request": "~2.16.6",
+    "ntwitter": "~0.5.0"
+  }
+}
