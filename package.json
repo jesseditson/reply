@@ -1,5 +1,5 @@
 {
-  "name": "reply",
+  "name": "replybot",
   "version": "0.0.1",
   "description": "A bot for replying to tweets",
   "main": "reply.js",
