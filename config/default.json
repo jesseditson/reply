@@ -10,6 +10,6 @@
   "replies" : [
     "test"
   ],
-  "max_replies_per_minute" : 6,
+  "max_replies_per_minute" : 0.8,
   "in_reply_to" : true
 }

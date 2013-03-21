@@ -51,7 +51,7 @@ when a tweet matches the keywords (as detailed [here](https://dev.twitter.com/do
 **replies** will replace `$n` items with matches from the original tweet.
 **replies** can contain square-bracket surrounded attributes to pick from the original tweet too. You can see the options in the example response [here](https://dev.twitter.com/docs/api/1.1/get/statuses/show/%3Aid "Twitter Show Status Docs"). For instance (and probably the most useful), you could at-tweet a user by adding `@[user.screen_name]` to the beginning of a reply.
 
-**max_replies_per_minute** is there to help you not hit the API limits. I don't remember what they are, be reasonable. Default is one per minute if you don't (or forget to) set this.
+**max_replies_per_minute** is there to help you not hit the API limits. 1000/day is the global limit. This will only tweet when it can though, so if there is ALWAYS a tweet to respond to queueing up, the max would be 0.695. However, this is unlikely for normal uses, so your number could be considerably higher. Default is one per minute.
 
 **in_reply_to** will mark the tweet as being in reply to the tweet. This will cause twitter to show it in the conversation view. Turn it off if you're just randomly tweeting.
 
