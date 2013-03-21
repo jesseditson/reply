@@ -102,6 +102,5 @@ twitter.stream('statuses/filter', {'track':keywords}, function(stream) {
 if(process.env.PORT){
   require('http').createServer(function(req,res){
     res.end('nothing to see here...')
-    res.listen(process.env.PORT)
-  })
+  }).listen(process.env.PORT)
 }
