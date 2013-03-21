@@ -73,6 +73,10 @@ type `config-heroku save`, and when prompted (after confirming your config) ente
 
 type `git push heroku`
 
+Lastly, you'll want to add the newrelic standard addon - not for the monitoring, but it'll ping your app twice a minute. This will prevent Heroku from idling your app and causing the dyno to spin down (and all your tweets to stop):
+
+`heroku addons:add newrelic:standard`
+
 now your annoying twitter bot is running in the cloud like a boss. If you're interested in what it's doing you can type `heroku logs -t`, and you'll get streaming logs of what it's been up to.
 
 
