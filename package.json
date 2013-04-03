@@ -1,6 +1,6 @@
 {
   "name": "replybot",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A bot for replying to tweets",
   "main": "reply.js",
   "scripts": {
